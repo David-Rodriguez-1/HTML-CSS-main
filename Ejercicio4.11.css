@@ -1,0 +1,6 @@
+#elemento-1 {
+    color: rgb(255, 0, 0);
+}
+ul #elemento-1 {
+    font-size: 2rem;
+}
