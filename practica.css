@@ -53,3 +53,36 @@
     width: 300px;
     height: 300px;
 }
+
+.padre {
+    width: 500px;
+    height: 500px;
+    background: #888;
+}
+.hijo {
+    width: 50%;
+    height: 50%;
+    background: #8ef;
+}
+
+.padre:hover .hijo {
+    animation: traslacion 1s;
+}
+@keyframes traslacion {
+    0% {
+        transform: translateX(0%) translateY(0%);
+    }
+    25% {
+        transform: translateX(100%) translateY(0%);
+    }
+    50% {
+        transform: translateY(100%) translateX(100%);
+        
+    }
+    75% {
+        transform: translateX(0%) translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
