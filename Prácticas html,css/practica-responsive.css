@@ -1,0 +1,29 @@
+.contenedor {
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    min-height: 5rem;
+    flex-wrap: wrap;
+}
+.hijos {
+    background-color: blueviolet;
+    min-height: 5rem;
+}
+.hijo1 {
+    color: aliceblue;
+    flex-grow: 1;
+}
+.hijo2 {
+    color: aliceblue;
+    flex-grow: 1;
+}
+.hijo3 {
+    color: aliceblue;
+    flex-grow: 1;
+}
+.hijo4 {
+    color: aliceblue;
+    flex-grow: 1;
+}

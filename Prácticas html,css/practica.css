@@ -1,5 +1,8 @@
 .boton {
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-right: 400px;
     border: none;
     height: 40px;
     width: 90px;
@@ -16,7 +19,8 @@
 }
 
 .formulario {
-    position: relative;
+    position: absolute;
+    left: 700px;
     height: 200px;
     width: 500px;
     /*background: #bbb; */
@@ -58,6 +62,7 @@
     width: 500px;
     height: 500px;
     background: #888;
+    opacity: .5;
 }
 .hijo {
     width: 50%;
@@ -65,7 +70,7 @@
     background: #8ef;
 }
 
-.padre:hover .hijo {
+.padre:active .hijo {
     animation: traslacion 1s;
 }
 @keyframes traslacion {

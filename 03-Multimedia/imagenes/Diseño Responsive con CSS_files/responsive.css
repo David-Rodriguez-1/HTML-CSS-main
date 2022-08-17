@@ -1,0 +1,9 @@
+.contenedor {
+    background-color: burlywood;
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
